@@ -94,14 +94,8 @@ main {
 
 .intro {
     margin-bottom: 60px;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    padding: 48px;
-    box-shadow: var(--shadow);
     animation: fadeInUp 0.8s ease-out 0.2s backwards;
-    position: relative;
-    overflow: hidden;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
 }
 
 .intro p {
@@ -109,8 +103,6 @@ main {
     margin-bottom: 24px;
     color: var(--text-secondary);
     line-height: 1.8;
-    position: relative;
-    z-index: 1;
 }
 
 .intro p:last-of-type:not(.cta) {
@@ -123,9 +115,7 @@ main {
     color: var(--text-primary) !important;
     margin-top: 32px;
     padding-top: 24px;
-    border-top: 2px solid var(--border-color);
-    position: relative;
-    z-index: 1;
+    border-top: none;
 }
 
 .links {
